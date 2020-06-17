@@ -14,8 +14,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <source>14</source>
-                    <target>14</target>
+                    <source>13</source>
+                    <target>13</target>
                 </configuration>
             </plugin>
             <plugin>
@@ -28,8 +28,8 @@
 
                 <configuration>
 
-                    <source>14</source>
-                    <target>14</target>
+                    <source>13</source>
+                    <target>13</target>
 
                     <compress>2</compress>
 
@@ -39,12 +39,12 @@
 
                     <jlinkZipName>hellozip</jlinkZipName>
 
-                    <mainClass>view.Main</mainClass>
+                    <mainClass>view/view.Main</mainClass>
 
-
-
-                    <jlinkExecutable>/usr/lib/jvm/bellsoft-java14-full-amd64/bin/jlink</jlinkExecutable>
-                    <executable>/usr/lib/jvm/bellsoft-java14-full-amd64/bin/javac</executable>
+                    <jlinkExecutable>/home/suntrie/.jdks/azul-13.0.3-1/bin/jlink</jlinkExecutable>
+                    <executable>/home/suntrie/.jdks/azul-13.0.3-1/bin/java</executable>
+<!--    <jlinkExecutable>/usr/lib/jvm/bellsoft-java14-full-amd64/bin/jlink</jlinkExecutable>-->
+<!--                    <executable>/usr/lib/jvm/bellsoft-java14-full-amd64/bin/java</executable>-->
 
                 </configuration>
 
@@ -61,7 +61,7 @@
 
             <artifactId>javafx-graphics</artifactId>
 
-            <version>14</version>
+            <version>13</version>
 
         </dependency>
 
@@ -71,7 +71,7 @@
 
             <artifactId>javafx-fxml</artifactId>
 
-            <version>14</version>
+            <version>13</version>
 
         </dependency>
 
